@@ -25,6 +25,54 @@
     z-index: 99;
 }
 
+/*** Body ***/
+/** Custom bootstrap body **/
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #353535
+}
+/** End Custom bootstrap body **/
+
+
+/*** Display ***/
+/** Custom bootstrap display **/
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+    font-weight: 900;
+} 
+/** End Custom bootstrap display **/
+
 
 /*** Spinner ***/
 #spinner {
@@ -41,7 +89,102 @@
 }
 
 
+/*** Text ***/
+/** Custom bootstrap text **/
+.text-primary {
+    color: #AB7442 !important
+}
+/** End Custom bootstrap text **/
+
+
+/*** Background ***/
+/** Custom bootstrap background **/
+.bg-primary {
+    background-color: #0d6efd !important;
+}
+/** End Custom bootstrap background **/
+
+
 /*** Button ***/
+/** Custom bootstrap btn **/
+.btn-primary {
+    color: #000;
+    background-color: #AB7442;
+    border-color: #AB7442
+}
+
+.btn-primary:hover {
+    color: #000;
+    background-color: #b8895e;
+    border-color: #b38255
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #000;
+    background-color: #b8895e;
+    border-color: #b38255;
+    box-shadow: 0 0 0 .25rem rgba(145, 99, 56, 0.5)
+}
+
+.btn-check:checked+.btn-primary,
+.btn-check:active+.btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show>.btn-primary.dropdown-toggle {
+    color: #000;
+    background-color: #bc9068;
+    border-color: #b38255
+}
+
+.btn-primary:disabled,
+.btn-primary.disabled {
+    color: #000;
+    background-color: #AB7442;
+    border-color: #AB7442
+}
+
+.btn-outline-primary {
+    color: #AB7442;
+    border-color: #AB7442
+}
+
+.btn-outline-primary:hover {
+    color: #000;
+    background-color: #AB7442;
+    border-color: #AB7442
+}
+
+.btn-check:focus+.btn-outline-primary,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 .25rem rgba(171, 116, 66, 0.5)
+}
+
+.btn-check:checked+.btn-outline-primary,
+.btn-check:active+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show {
+    color: #000;
+    background-color: #AB7442;
+    border-color: #AB7442
+}
+
+.btn-check:checked+.btn-outline-primary:focus,
+.btn-check:active+.btn-outline-primary:focus,
+.btn-outline-primary:active:focus,
+.btn-outline-primary.active:focus,
+.btn-outline-primary.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 .25rem rgba(171, 116, 66, 0.5)
+}
+
+.btn-outline-primary:disabled,
+.btn-outline-primary.disabled {
+    color: #AB7442;
+    background-color: transparent
+}
+/** End Custom bootstrap btn **/
+
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -76,6 +219,7 @@
     justify-content: center;
     font-weight: normal;
 }
+
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {

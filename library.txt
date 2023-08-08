@@ -1,0 +1,20 @@
+### Libraries Used ###
+
+- Three Google Web Fonts
+- font-awesome.css=5.10.0
+- bootstrap-icons.css=1.4.1
+- animate.css=3.5.2  (for animate)
+- owl.carousel.css=2.2.1  (for slide)
+- lightbox.css=2.10.0 (for pop up box)
+- bootstrap.css=5.0.0
+
+- jQuery=3.4.1
+- bootstrap.bundle.js=5.0.0
+- wow.js=1.1.2  (for fadeIn animation effects)
+- jquery.easing.js=1.4.1  (for ease-in animation effects)
+- jquery.waypoints.js=4.0.1  (for sticky navigation menus)
+- jquery.counterup.js=2.1.0  (for numbers counterup)
+- owl.carousel.js=2.2.1
+- isotope.pkgd.js=3.0.5  (for creating grid layouts)
+- lightbox.js=2.10.0
+
