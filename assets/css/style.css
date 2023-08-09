@@ -318,6 +318,13 @@ h6,
     }
 }
 
+/** Custom bootstrap img-fluid **/
+.header-carousel .owl-carousel-item .img-fluid {
+    /* max-height: 100%; */
+    height: 500px;
+}
+/** End Custom bootstrap img-fluid **/
+
 .header-carousel .owl-nav {
     position: absolute;
     width: 200px;
