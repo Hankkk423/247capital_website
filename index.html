@@ -34,10 +34,10 @@
 
 
     <!-- Customized Bootstrap Stylesheet (original 5.0.0) -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Template Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -97,9 +97,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
+                <!-- <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="project.html" class="nav-item nav-link">Project</a> -->
+                <a href="#s_about" class="nav-item nav-link">About</a>
+                <a href="#s_service" class="nav-item nav-link">Service</a>
+                <a href="#s_project" class="nav-item nav-link">Project</a>
+                
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -112,7 +116,7 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
+            <a href="#s_quote" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
@@ -129,9 +133,11 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Your Real Estate</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Find Your Dream Property with Us</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover the best real estate listings in your area. We provide a wide range of properties, from luxurious 
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To 247 Capital</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Find Your Dream Property with
+                                    Us</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover the best real estate listings in
+                                    your area. We provide a wide range of properties, from luxurious
                                     homes to commercial spaces.</p>
                                 <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
                                     More</a>
@@ -142,15 +148,17 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="assets/imgs/carousel-02.webp" alt="">
+                <img class="img-fluid" src="assets/imgs/carousel-02.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(53, 53, 53, .7);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Your Real Estate</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Discover Your Perfect Home</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Explore our wide range of residential properties, from cozy apartments to 
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To 247 Capital</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Discover Your Perfect Home
+                                </h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Explore our wide range of residential
+                                    properties, from cozy apartments to
                                     spacious family homes. Find the perfect place to call home.</p>
                                 <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
                                     More</a>
@@ -167,9 +175,11 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Your Real Estate</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Unlock Investment Opportunities</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Explore our range of commercial properties and investment opportunities. 
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To 247 Capital</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Unlock Investment
+                                    Opportunities</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Explore our range of commercial
+                                    properties and investment opportunities.
                                     From office spaces to retail properties, we help you make sound investments.</p>
                                 <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
                                     More</a>
@@ -184,562 +194,608 @@
     <!-- Carousel End -->
 
 
-    <!-- Feature Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-user-check fa-2x text-primary"></i>
+    <!-- Attribute Start -->
+    <section id="s_attribute">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <div class="d-flex align-items-center justify-content-center bg-light"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa fa-user-check fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">01</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">01</h1>
+                        <h5>Wide Property Selection</h5>
                     </div>
-                    <h5>Wide Property Selection</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-check fa-2x text-primary"></i>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <div class="d-flex align-items-center justify-content-center bg-light"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">02</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">02</h1>
+                        <h5>Trusted by Clients</h5>
                     </div>
-                    <h5>Trusted by Clients</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-drafting-compass fa-2x text-primary"></i>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <div class="d-flex align-items-center justify-content-center bg-light"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa fa-drafting-compass fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">03</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">03</h1>
+                        <h5>Expert Property Insights</h5>
                     </div>
-                    <h5>Expert Property Insights</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-headphones fa-2x text-primary"></i>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <div class="d-flex align-items-center justify-content-center bg-light"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa fa-headphones fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">04</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">04</h1>
+                        <h5>Exceptional Services</h5>
                     </div>
-                    <h5>Exceptional Services</h5>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Feature Start -->
-
+    </section>
+    <!-- Attribute End -->
 
 
     <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="assets/imgs/about.jpg"
-                            style="object-fit: cover;" alt="">
+    <section id="s_about">
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100" src="assets/imgs/about.jpg"
+                                style="object-fit: cover;" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">About Us</h1>
-                        </div>
-                        <p class="mb-4 pb-2">Welcome to 247 Capital, your trusted partner in the world of real estate. 
-                            With a dedication to excellence and a commitment to our clients, 
-                            we offer a range of exceptional services to help you find your dream property.</p>
-                        <div class="row g-4 mb-4 pb-2">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
-                                        <i class="fa fa-users fa-2x text-primary"></i>
+                    <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="p-lg-5 pe-lg-0">
+                            <div class="section-title text-start">
+                                <h1 class="display-5 mb-4">About Us</h1>
+                            </div>
+                            <p class="mb-4 pb-2">Welcome to 247 Capital, your trusted partner in the world of real
+                                estate.
+                                With a dedication to excellence and a commitment to our clients,
+                                we offer a range of exceptional services to help you find your dream property.</p>
+                            <div class="row g-4 mb-4 pb-2">
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                            style="width: 60px; height: 60px;">
+                                            <i class="fa fa-users fa-2x text-primary"></i>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="text-primary mb-1" data-toggle="counter-up">7999</h2>
+                                            <p class="fw-medium mb-0">Happy Clients</p>
+                                        </div>
                                     </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">7999</h2>
-                                        <p class="fw-medium mb-0">Happy Clients</p>
+                                </div>
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                            style="width: 60px; height: 60px;">
+                                            <i class="fa fa-check fa-2x text-primary"></i>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="text-primary mb-1" data-toggle="counter-up">1999</h2>
+                                            <p class="fw-medium mb-0">Successful Deals</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
-                                        <i class="fa fa-check fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">1999</h2>
-                                        <p class="fw-medium mb-0">Successful Deals</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
                         </div>
-                        <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- About End -->
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Services</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="assets/imgs/service-propertybuying.jpg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Property Buying</h4>
-                            <p>Explore our expert property buying services. We help you find your dream property hassle-free.</p>
-                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+    <section id="s_service">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h1 class="display-5 mb-5">Our Services</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="assets/imgs/service-propertybuying.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Property Buying</h4>
+                                <p>Explore our expert property buying services. We help you find your dream property
+                                    hassle-free.</p>
+                                <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="assets/imgs/service-propertyselling.jpeg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Property Selling</h4>
-                            <p>Sell your property with confidence using our comprehensive property selling solutions.</p>
-                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="assets/imgs/service-realestateconsultation.jpg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Real Estate Consultation</h4>
-                            <p>Get expert advice and consultation on all aspects of real estate investment and transactions.</p>
-                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="assets/imgs/service-propertyselling.jpeg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Property Selling</h4>
+                                <p>Sell your property with confidence using our comprehensive property selling
+                                    solutions.
+                                </p>
+                                <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="assets/imgs/service-propertymanagement.jpg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Property Management</h4>
-                            <p>Let us handle the day-to-day management of your properties, ensuring smooth operations.</p>
-                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="assets/imgs/service-realestateinvestment.jpg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Real Estate Investment</h4>
-                            <p>Maximize your investment opportunities with our expert real estate investment strategies.</p>
-                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="assets/imgs/service-realestateconsultation.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Real Estate Consultation</h4>
+                                <p>Get expert advice and consultation on all aspects of real estate investment and
+                                    transactions.</p>
+                                <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="assets/imgs/service-propertyvaluation.jpg" alt="">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="assets/imgs/service-propertymanagement.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Property Management</h4>
+                                <p>Let us handle the day-to-day management of your properties, ensuring smooth
+                                    operations.
+                                </p>
+                                <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                            </div>
                         </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Property Valuation</h4>
-                            <p>Accurate property valuation services to help you make informed decisions in the real estate market.</p>
-                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="assets/imgs/service-realestateinvestment.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Real Estate Investment</h4>
+                                <p>Maximize your investment opportunities with our expert real estate investment
+                                    strategies.
+                                </p>
+                                <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="assets/imgs/service-propertyvaluation.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Property Valuation</h4>
+                                <p>Accurate property valuation services to help you make informed decisions in the real
+                                    estate market.</p>
+                                <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Service End -->
 
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container feature px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Why Choose Us</h1>
-                        </div>
-                        <p class="mb-4 pb-2">At 247 Capital, 
-                            we are dedicated to providing exceptional services to meet all your real estate needs. 
-                            Our commitment to excellence sets us apart.</p>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
-                                        <i class="fa fa-check fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Quality</p>
-                                        <h5 class="mb-0">Services</h5>
+    <section id="s_feature">
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="p-lg-5 ps-lg-0">
+                            <div class="section-title text-start">
+                                <h1 class="display-5 mb-4">Why Choose Us</h1>
+                            </div>
+                            <p class="mb-4 pb-2">At 247 Capital,
+                                we are dedicated to providing exceptional services to meet all your real estate needs.
+                                Our commitment to excellence sets us apart.</p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                            style="width: 60px; height: 60px;">
+                                            <i class="fa fa-check fa-2x text-primary"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-2">Quality</p>
+                                            <h5 class="mb-0">Services</h5>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
-                                        <i class="fa fa-user-check fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Expert</p>
-                                        <h5 class="mb-0">Agents</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
-                                        <i class="fa fa-drafting-compass fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Free</p>
-                                        <h5 class="mb-0">Consultation</h5>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                            style="width: 60px; height: 60px;">
+                                            <i class="fa fa-user-check fa-2x text-primary"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-2">Expert</p>
+                                            <h5 class="mb-0">Agents</h5>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
-                                        <i class="fa fa-headphones fa-2x text-primary"></i>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                            style="width: 60px; height: 60px;">
+                                            <i class="fa fa-drafting-compass fa-2x text-primary"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-2">Free</p>
+                                            <h5 class="mb-0">Consultation</h5>
+                                        </div>
                                     </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Responsive</p>
-                                        <h5 class="mb-0">Support</h5>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                            style="width: 60px; height: 60px;">
+                                            <i class="fa fa-headphones fa-2x text-primary"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-2">Responsive</p>
+                                            <h5 class="mb-0">Support</h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="assets/imgs/whychooseus.jpg"
-                            style="object-fit: cover;" alt="">
+                    <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100" src="assets/imgs/whychooseus.jpg"
+                                style="object-fit: cover;" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Feature End -->
 
 
-    <!-- Projects Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Projects</h1>
-            </div>
-            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2 active" data-filter="*">All</li>
-                        <li class="mx-2" data-filter=".first">Residential</li>
-                        <li class="mx-2" data-filter=".second">Commercial</li>
-                    </ul>
+    <!-- Project Start -->
+    <section id="s_project">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h1 class="display-5 mb-5">Our Projects</h1>
                 </div>
-            </div>
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="assets/imgs/project-luxuryvilla.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="assets/imgs/project-luxuryvilla.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Residential Project</p>
-                            <h5 class="lh-base mb-0">Luxury Villa Design and Construction</a>
-                        </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">All</li>
+                            <li class="mx-2" data-filter=".first">Residential</li>
+                            <li class="mx-2" data-filter=".second">Commercial</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="assets/imgs/project-officebuilding.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="assets/imgs/project-officebuilding.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/imgs/project-luxuryvilla.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1"
+                                        href="assets/imgs/project-luxuryvilla.jpg" data-lightbox="portfolio"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
+                                            class="fa fa-link"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Commercial Project</p>
-                            <h5 class="lh-base mb-0">Office Building Interior Renovation</a>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Residential Project</p>
+                                <h5 class="lh-base mb-0">Luxury Villa Design and Construction</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="assets/imgs/project-modernapartment.png" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="assets/imgs/project-modernapartment.png"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/imgs/project-officebuilding.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1"
+                                        href="assets/imgs/project-officebuilding.jpg" data-lightbox="portfolio"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
+                                            class="fa fa-link"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Residential Project</p>
-                            <h5 class="lh-base mb-0">Modern Apartment Complex Design</a>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Commercial Project</p>
+                                <h5 class="lh-base mb-0">Office Building Interior Renovation</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="assets/imgs/project-retailstore.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="assets/imgs/project-retailstore.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/imgs/project-modernapartment.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1"
+                                        href="assets/imgs/project-modernapartment.png" data-lightbox="portfolio"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
+                                            class="fa fa-link"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Commercial Project</p>
-                            <h5 class="lh-base mb-0">Retail Store Interior Design and Renovation</a>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Residential Project</p>
+                                <h5 class="lh-base mb-0">Modern Apartment Complex Design</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="assets/imgs/project-luxurybeachfront.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="assets/imgs/project-luxurybeachfront.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/imgs/project-retailstore.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1"
+                                        href="assets/imgs/project-retailstore.jpg" data-lightbox="portfolio"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
+                                            class="fa fa-link"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Residential Project</p>
-                            <h5 class="lh-base mb-0">Luxury Beachfront Property Construction</a>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Commercial Project</p>
+                                <h5 class="lh-base mb-0">Retail Store Interior Design and Renovation</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="assets/imgs/project-hotel.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="assets/imgs/project-hotel.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/imgs/project-luxurybeachfront.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1"
+                                        href="assets/imgs/project-luxurybeachfront.jpg" data-lightbox="portfolio"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Residential Project</p>
+                                <h5 class="lh-base mb-0">Luxury Beachfront Property Construction</a>
                             </div>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Commercial Project</p>
-                            <h5 class="lh-base mb-0">Hotel and Resort Architectural Design</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/imgs/project-hotel.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1"
+                                        href="assets/imgs/project-hotel.jpg" data-lightbox="portfolio"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Commercial Project</p>
+                                <h5 class="lh-base mb-0">Hotel and Resort Architectural Design</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Projects End -->
+    </section>
+    <!-- Project End -->
 
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container quote px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="assets/imgs/quote.jpg"
-                            style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Free Quote</h1>
+    <section id="s_quote">
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container quote px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100" src="assets/imgs/quote.jpg"
+                                style="object-fit: cover;" alt="">
                         </div>
-                        <p class="mb-4 pb-2">Whether you're looking to buy, sell, or invest in real estate, 
-                            we're here to help you make the right choice. Please provide us with some details, 
-                            and we'll be in touch with you shortly.</p>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name"
-                                        style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email"
-                                        style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile"
-                                        style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Selling Property</option>
-                                        <option value="2">Buying Property</option>
-                                        <option value="3">Investment Consultation</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Get Free Quote</button>
-                                </div>
+                    </div>
+                    <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="p-lg-5 pe-lg-0">
+                            <div class="section-title text-start">
+                                <h1 class="display-5 mb-4">Free Quote</h1>
                             </div>
-                        </form>
+                            <p class="mb-4 pb-2">Whether you're looking to buy, sell, or invest in real estate,
+                                we're here to help you make the right choice. Please provide us with some details,
+                                and we'll be in touch with you shortly.</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control border-0" placeholder="Your Name"
+                                            style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="email" class="form-control border-0" placeholder="Your Email"
+                                            style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control border-0" placeholder="Your Mobile"
+                                            style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <select class="form-select border-0" style="height: 55px;">
+                                            <option selected>Select A Service</option>
+                                            <option value="1">Selling Property</option>
+                                            <option value="2">Buying Property</option>
+                                            <option value="3">Investment Consultation</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Get Free Quote</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Quote End -->
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="assets/imgs/team01-CEO.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+    <section id="s_team">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h1 class="display-5 mb-5">Team Members</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img class="img-fluid" src="assets/imgs/team01-CEO.jpg" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Gary Nguyen</h5>
-                            <small>CEO</small>
+                            <div class="text-center border border-5 border-light border-top-0 p-4">
+                                <h5 class="mb-0">Gary Nguyen</h5>
+                                <small>CEO</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="assets/imgs/team01-manager.webp" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img class="img-fluid" src="assets/imgs/team01-manager.webp" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Property Manager</small>
+                            <div class="text-center border border-5 border-light border-top-0 p-4">
+                                <h5 class="mb-0">Full Name</h5>
+                                <small>Property Manager</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="assets/imgs/team01-agent.jpeg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img class="img-fluid" src="assets/imgs/team01-agent.jpeg" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Real Estate Agent</small>
+                            <div class="text-center border border-5 border-light border-top-0 p-4">
+                                <h5 class="mb-0">Full Name</h5>
+                                <small>Real Estate Agent</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="assets/imgs/team01-designer.webp" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img class="img-fluid" src="assets/imgs/team01-designer.webp" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Interior Designer</small>
+                            <div class="text-center border border-5 border-light border-top-0 p-4">
+                                <h5 class="mb-0">Full Name</h5>
+                                <small>Interior Designer</small>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Team End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Testimonial</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="assets/imgs/testimonial-customer1.jpeg"
-                        style="width: 90px; height: 90px;">
-                    <div class="testimonial-text text-center p-4">
-                        <p>Choosing this real estate company was the best decision I made. Their personalized approach and attention
-                            to detail helped me find a property that perfectly matched my preferences. I couldn't be happier with their service.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Property Seller</span>
-                    </div>
+    <section id="s_testimonial">
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h1 class="display-5 mb-5">Testimonial</h1>
                 </div>
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="assets/imgs/testimonial-customer1.jpeg"
-                        style="width: 90px; height: 90px;">
-                    <div class="testimonial-text text-center p-4">
-                        <p>I'm extremely satisfied with the support I received from this real estate company. Their team went above
-                            and beyond to help me find a property that exceeded my expectations. Their dedication is truly commendable.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Home Buyer</span>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="assets/imgs/testimonial-customer1.jpeg"
+                            style="width: 90px; height: 90px;">
+                        <div class="testimonial-text text-center p-4">
+                            <p>Choosing this real estate company was the best decision I made. Their personalized
+                                approach
+                                and attention
+                                to detail helped me find a property that perfectly matched my preferences. I couldn't be
+                                happier with their service.</p>
+                            <h5 class="mb-1">Client Name</h5>
+                            <span class="fst-italic">Property Seller</span>
+                        </div>
                     </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="assets/imgs/testimonial-customer1.jpeg"
-                        style="width: 90px; height: 90px;">
-                    <div class="testimonial-text text-center p-4">
-                        <p>Working with this real estate company has been an amazing experience. Their expertise and professionalism
-                            have helped me find the perfect property that fits my needs and budget. I highly recommend their services.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Real Estate Investor</span>
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="assets/imgs/testimonial-customer1.jpeg"
+                            style="width: 90px; height: 90px;">
+                        <div class="testimonial-text text-center p-4">
+                            <p>I'm extremely satisfied with the support I received from this real estate company. Their
+                                team
+                                went above
+                                and beyond to help me find a property that exceeded my expectations. Their dedication is
+                                truly commendable.</p>
+                            <h5 class="mb-1">Client Name</h5>
+                            <span class="fst-italic">Home Buyer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="assets/imgs/testimonial-customer1.jpeg"
+                            style="width: 90px; height: 90px;">
+                        <div class="testimonial-text text-center p-4">
+                            <p>Working with this real estate company has been an amazing experience. Their expertise and
+                                professionalism
+                                have helped me find the perfect property that fits my needs and budget. I highly
+                                recommend
+                                their services.</p>
+                            <h5 class="mb-1">Client Name</h5>
+                            <span class="fst-italic">Real Estate Investor</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Testimonial End -->
 
 
