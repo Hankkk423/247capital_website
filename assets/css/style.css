@@ -788,3 +788,11 @@ h6,
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+
+/*** Temp ***/
+.temp-1 {
+    color: #3780aa;
+    background-color: #3780aa;
+}
+/*** End Temp ***/
