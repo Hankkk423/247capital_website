@@ -1,9 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: #AB7442;
+    --primary: #aa4545;
     --light: #F5F5F5;
     --dark: #353535;
 }
+/* #AB7442 -> #aa4545 (deeper) */ 
+/* #b8895e -> #ac5c5c (lighter) */
 
 .fw-medium {
     font-weight: 500 !important;
@@ -92,7 +94,7 @@ h6,
 /*** Text ***/
 /** Custom bootstrap text **/
 .text-primary {
-    color: #AB7442 !important
+    color: #aa4545 !important
 }
 /** End Custom bootstrap text **/
 
@@ -109,20 +111,20 @@ h6,
 /** Custom bootstrap btn **/
 .btn-primary {
     color: #000;
-    background-color: #AB7442;
-    border-color: #AB7442
+    background-color: #aa4545;
+    border-color: #aa4545
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #b8895e;
+    background-color: #ac5c5c;
     border-color: #b38255
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
-    background-color: #b8895e;
+    background-color: #ac5c5c;
     border-color: #b38255;
     box-shadow: 0 0 0 .25rem rgba(145, 99, 56, 0.5)
 }
@@ -140,19 +142,19 @@ h6,
 .btn-primary:disabled,
 .btn-primary.disabled {
     color: #000;
-    background-color: #AB7442;
-    border-color: #AB7442
+    background-color: #aa4545;
+    border-color: #aa4545
 }
 
 .btn-outline-primary {
-    color: #AB7442;
-    border-color: #AB7442
+    color: #aa4545;
+    border-color: #aa4545
 }
 
 .btn-outline-primary:hover {
     color: #000;
-    background-color: #AB7442;
-    border-color: #AB7442
+    background-color: #aa4545;
+    border-color: #aa4545
 }
 
 .btn-check:focus+.btn-outline-primary,
@@ -166,8 +168,8 @@ h6,
 .btn-outline-primary.active,
 .btn-outline-primary.dropdown-toggle.show {
     color: #000;
-    background-color: #AB7442;
-    border-color: #AB7442
+    background-color: #aa4545;
+    border-color: #aa4545
 }
 
 .btn-check:checked+.btn-outline-primary:focus,
@@ -180,7 +182,7 @@ h6,
 
 .btn-outline-primary:disabled,
 .btn-outline-primary.disabled {
-    color: #AB7442;
+    color: #aa4545;
     background-color: transparent
 }
 /** End Custom bootstrap btn **/
